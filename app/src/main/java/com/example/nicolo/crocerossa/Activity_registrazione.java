@@ -11,9 +11,9 @@ public class Activity_registrazione extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_registrazione);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        this.setContentView(R.layout.layout_registrazione);
+        setContentView(R.layout.layout_registrazione);
+
     }
 
     public void switchViews(View view) {

@@ -9,8 +9,8 @@ public class Quest_activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quest);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        this.setContentView(R.layout.activity_quest);
+        setContentView(R.layout.activity_quest);
+
     }
 }

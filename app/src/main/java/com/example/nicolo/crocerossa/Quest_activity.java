@@ -2,6 +2,7 @@ package com.example.nicolo.crocerossa;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Window;
 
 public class Quest_activity extends AppCompatActivity {
 
@@ -9,5 +10,7 @@ public class Quest_activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quest);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.setContentView(R.layout.activity_quest);
     }
 }

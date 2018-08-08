@@ -48,59 +48,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <menu
-        android:layout_width="212dp"
-        android:layout_height="38dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="12dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3">
-        <!--
-            android:checkable
-                Boolean. "true" if the item is checkable.
-
-            android:checked
-                Boolean. "true" if the item is checked by default.
-        -->
-        <item
-            android:id="@+id/red"
-            android:icon="@drawable/ic_palette_red_36dp"
-            android:orderInCategory="1"
-            android:title="Red"
-            app:showAsAction="always|withText" />
-
-        <item
-            android:id="@+id/green"
-            android:icon="@drawable/ic_palette_green_36dp"
-            android:orderInCategory="2"
-            android:title="Green"
-            app:showAsAction="ifRoom|withText" />
-
-        <item
-            android:id="@+id/blue"
-            android:icon="@drawable/ic_palette_blue_36dp"
-            android:orderInCategory="3"
-            android:title="Blue"
-            app:showAsAction="ifRoom|withText" />
-
-        <item
-            android:id="@+id/bold"
-            android:checkable="true"
-            android:orderInCategory="4"
-            android:title="Bold Text"
-            app:showAsAction="never" />
-
-        <item
-            android:id="@+id/italic"
-            android:checkable="true"
-            android:orderInCategory="5"
-            android:title="Italic Text"
-            app:showAsAction="never" />
-    </menu>
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"

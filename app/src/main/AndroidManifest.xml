@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity_registrazione" />
-        <activity android:name=".Quest_activity"></activity>
+        <activity android:name=".Quest_activity" />
     </application>
 
 </manifest>

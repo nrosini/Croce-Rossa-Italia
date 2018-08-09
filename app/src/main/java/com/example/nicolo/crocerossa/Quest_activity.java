@@ -18,14 +18,11 @@ public class Quest_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quest);
 
-
     }
 
-    final Button button = findViewById(R.id.bottoneMalattie);
-    button.setOnClickListener(new View.OnClickListener() {
-        public void onClick(View v) {
-            DialogFragment malattie = new Dialog();
-            malattie.show(getSupportFragmentManager(),"malattie");
-        }
-    });
+    public void illSelect (View v) {
+        DialogFragment malattie = new Dialog();
+        malattie.show(getSupportFragmentManager(),"malattie");
+    }
+
 }

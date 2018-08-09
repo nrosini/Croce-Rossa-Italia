@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="malattie">
+        <item>Sifilide</item>
+        <item>Gonorrea</item>
+        <item>Epatite</item>
+        <item>AIDS</item>
+    </array>
+</resources>

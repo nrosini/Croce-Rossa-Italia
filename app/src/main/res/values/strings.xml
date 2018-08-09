@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Croce Rossa</string>
+    <string name="dialog_malattie">Scegli le malattie..</string>
 </resources>

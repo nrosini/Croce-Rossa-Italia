@@ -23,6 +23,7 @@
         </activity>
         <activity android:name=".Activity_registrazione" />
         <activity android:name=".Quest_activity" />
+        <activity android:name=".Cure_activity" />
     </application>
 
 </manifest>

@@ -36,7 +36,7 @@ public class Quest_activity extends AppCompatActivity {
         allergie.show(getSupportFragmentManager(),"Allergie");
     }
 
-    public void switchViews(View view) {
-        startActivity(new Intent(Quest_activity.this , Cure_activity.class));
+    public void switchViewa(View view) {
+        startActivity(new Intent(Quest_activity.this, Cure_activity.class));
     }
 }

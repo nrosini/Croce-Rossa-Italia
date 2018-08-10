@@ -10,4 +10,9 @@ public class Cure_activity extends AppCompatActivity {
         setContentView(R.layout.activity_cure);
         setTitle("Gestione Farmaci e scadenze");
     }
+
+    public void addFarmaco() {
+        Dialogfarmaci farmaci = new Dialogfarmaci();
+        farmaci.show(getSupportFragmentManager(), "Aggiungi Farmaco");
+    }
 }

@@ -6,4 +6,16 @@
         <item>Epatite</item>
         <item>AIDS</item>
     </array>
+
+    <array name="Interventi">
+        <item>Trapianti Vari</item>
+        <item>Tonzille e/o Adenoidi</item>
+        <item>Amputazione</item>
+    </array>
+
+    <array name="Allergie">
+        <item>Lattosio</item>
+        <item>Fragole</item>
+        <item>Graminace</item>
+    </array>
 </resources>

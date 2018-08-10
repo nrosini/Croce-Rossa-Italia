@@ -8,6 +8,8 @@ package com.example.nicolo.crocerossa;
 
 public class Dialog extends DialogFragment {
     @Override
+
+    //Dialog Malattie Attuali
     public android.app.Dialog onCreateDialog(Bundle savedInstanceState) {
         final ArrayList malattieSelezionate = new ArrayList();
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());

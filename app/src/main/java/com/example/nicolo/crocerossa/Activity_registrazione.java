@@ -3,11 +3,10 @@ package com.example.nicolo.crocerossa;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Activity_registrazione extends AppCompatActivity {
 
@@ -19,8 +18,10 @@ public class Activity_registrazione extends AppCompatActivity {
             getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
 
         }
-        setContentView(R.layout.layout_registrazione);
         setTitle("Registrazione");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setContentView(R.layout.layout_registrazione);
+
     }
 
     public void switchViews(View view) {

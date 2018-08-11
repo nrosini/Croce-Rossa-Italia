@@ -22,7 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity_registrazione" />
+
+        <activity android:name=".Activity_registrazione"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".Quest_activity" />
         <activity android:name=".Cure_activity" />
     </application>

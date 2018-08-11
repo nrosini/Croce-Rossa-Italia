@@ -26,12 +26,24 @@
             android:layout_marginTop="3pt"
             android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3pt"
+                android:layout_marginBottom="5pt"
+                android:text="Utilizzi per la prima volta questa app? Registrati. Se sei già registrato accedi dalla precedente schermata."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="62dp"
+                tools:layout_editor_absoluteY="0dp" />
+
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical"
-                android:layout_marginTop="3dp"
                 android:layout_marginBottom="5pt"
                 android:gravity="center_vertical">
 
@@ -61,6 +73,7 @@
                     android:drawableStart="@drawable/ic_line_style_black_24dp"
                     android:drawablePadding="5pt"
                     android:hint="Codice fiscale"
+                    android:inputType="textCapCharacters"
                     android:singleLine="true" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -83,12 +96,15 @@
                     style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1">
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:drawableStart="@drawable/ic_date_range_black_24dp"
                         android:gravity="center"
                         android:hint="GG" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -103,7 +119,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:gravity="center"
+                        android:gravity="center_vertical|center"
                         android:hint="MM" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -139,8 +155,9 @@
                     android:gravity="center_vertical"
                     android:hint="Luogo di nascita" />
             </com.google.android.material.textfield.TextInputLayout>
-
         </LinearLayout>
+
+
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
